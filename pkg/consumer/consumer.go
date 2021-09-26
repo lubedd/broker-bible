@@ -1,9 +1,9 @@
 package consumer
 
 import (
-	"broker/bible/internal/connect"
-	pb "broker/bible/internal/proto"
 	"context"
+	"github.com/lubedd/broker-bible/internal/connect"
+	pb "github.com/lubedd/broker-bible/internal/proto"
 	"google.golang.org/grpc"
 )
 

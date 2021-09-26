@@ -1,7 +1,7 @@
 package connect
 
 import (
-	pb "broker/bible/internal/proto"
+	pb "github.com/lubedd/broker-bible/internal/proto"
 	"fmt"
 	"google.golang.org/grpc"
 )

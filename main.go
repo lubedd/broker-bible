@@ -1,8 +1,8 @@
 package bible
 
 import (
-	"broker/bible/pkg/consumer"
-	"broker/bible/pkg/producer"
+	"github.com/lubedd/broker-bible/pkg/consumer"
+	"github.com/lubedd/broker-bible/pkg/producer"
 )
 
 func GetProducerClient(ip, port string) (producer.Producer, error) {

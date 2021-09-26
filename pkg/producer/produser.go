@@ -1,8 +1,8 @@
 package producer
 
 import (
-	"broker/bible/internal/connect"
-	pb "broker/bible/internal/proto"
+	"github.com/lubedd/broker-bible/internal/connect"
+	pb "github.com/lubedd/broker-bible/internal/proto"
 	"context"
 	"google.golang.org/grpc"
 )
