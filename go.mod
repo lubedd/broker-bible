@@ -1,4 +1,4 @@
-module bible
+module github.com/lubedd/broker-bible
 
 go 1.17
 
