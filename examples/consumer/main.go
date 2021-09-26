@@ -10,13 +10,13 @@ import (
 func main() {
 	consumer, err := bible.GetConsumerClient("127.0.0.1", "5300")
 	if err != nil {
-		log.Fatalln(err)
+		log.Fatalf("can not connect with server %v", err)
 	}
 
 	var id uint64
 	err = consumer.Send("a", domain.ConsumersOpenConnection, id)
 	if err != nil {
-		log.Fatalln(err)
+		log.Fatalf("can not send %v", err)
 	}
 
 	for {
